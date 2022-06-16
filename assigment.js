@@ -1,0 +1,16 @@
+console.log("Best");
+console.log("OF luck");
+var a = 7;
+a += a++ + ++a + --a + a--;
+console.log(a);
+var y = 10;
+var z = (++y * (y++ + 5));
+console.log(z);
+var x = 4;
+x += (x++) + (++x) + x;
+console.log(x);
+var k = 5, j = 9;
+k += k++ - ++j + k;
+console.log("k=" + k);
+console.log("j=" + j);
+console.log("Incredible" + "\n" + "world");
